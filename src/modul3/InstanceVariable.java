@@ -9,8 +9,9 @@ package modul3;
  * @author fahri
  */
 public class InstanceVariable {
-    int usia = 0;
+    int umur = 0;
     public void hitungUsia() {
+        int usia = 0;
         int tahunSekarang = 2026;
         int tahunLahir = 2007;
         usia = tahunSekarang - tahunLahir;
@@ -19,7 +20,7 @@ public class InstanceVariable {
     public void beratBadan() {
         int beratBadan = 0;
         int beratLahir = 70;
-        beratBadan = beratLahir + (usia / 2);
+        beratBadan = beratLahir + (umur / 2);
         System.out.println("Berat : " + beratBadan);
     }
 }
