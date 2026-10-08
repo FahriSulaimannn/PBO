@@ -19,7 +19,7 @@ public class LocalVariable {
     public void beratBadan() {
         int beratBadan = 0;
         int beratLahir = 70;
-        beratBadan = beratLahir + (usia / 2);
+//        beratBadan = beratLahir + (usia / 2);
         System.out.println("Berat : " + beratBadan);
     }
 }
