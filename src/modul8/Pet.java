@@ -52,7 +52,7 @@ class Anjing extends Pet {
     }
 }
 
-class main {
+class main1 {
     public static void main(String[] args) {
         Pet k1 = new Kucing();
         Pet a1 = new Anjing();
